@@ -12,11 +12,12 @@ const Navbar = () => {
   const linkClasses = (section) => {
     const baseClasses = "transition font-medium text-md relative";
     if (activeSection === section) {
-      return `${baseClasses} text-[#1e252d] hover:text-gray-500 after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[2px] after:bg-[#1e252d]`;
+      
+      return `${baseClasses} text-[#1e252d] hover:text-gray-500 md:after:content-[''] md:after:absolute md:after:left-0 md:after:bottom-[-2px] md:after:w-full md:after:h-[2px] md:after:bg-[#1e252d]`;
     }
     return `${baseClasses} text- hover:text-gray-500`;
   };
-  
+
   return (
     <nav className="bg-white shadow-md py-4 px-6 rounded-lg border border-[#1e252d]">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
