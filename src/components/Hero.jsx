@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
         <div className="md:w-1/2">
           <div className="bg-[#1e252d] rounded-xl p-6 h-64 md:h-80 flex items-center justify-center">
-            <img src="/images/ux-ui.jpg" alt="Hero section illustration" className="max-h-full" />
+            <img src="/images/ux-ui.jpg" alt="Hero section illustration" className="max-h-full border-2 border-white rounded-lg" />
           </div>
         </div>
       </div>
