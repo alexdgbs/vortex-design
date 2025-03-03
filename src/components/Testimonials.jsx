@@ -18,7 +18,7 @@ const Testimonials = () => {
       color: "from-white to-blue-400"
     },
     {
-      quote: "La mejor inversión que hemos hecho este año. El diseño intuitivo ha mejorado significativamente la experiencia de nuestros usuarios.",
+      quote: "El diseño intuitivo ha mejorado significativamente la experiencia de nuestros usuarios.",
       author: "Ana Morales",
       role: "Fundadora, EcoStyle",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
@@ -67,6 +67,7 @@ const Testimonials = () => {
         </div>
       </div>
     </section>
+    
   );
 };
 
