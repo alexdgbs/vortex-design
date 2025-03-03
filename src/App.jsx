@@ -1,23 +1,22 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import TestimonialsPage from './pages/TestimonialsPage';
+import FeaturesPage from './pages/FeaturesPage';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import Testimonials from './components/Testimonials';
-import Pricing from './components/Pricing';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-white p-4">
+    <Router>
       <Navbar />
-      <Hero />
-      <Features />
-      <Testimonials />
-      <Pricing />
-      <Contact />
-      <Footer />
-    </div>
+      <div className="min-h-screen flex flex-col bg-white p-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/testimonios" element={<TestimonialsPage />} />
+          <Route path="/features" element={<FeaturesPage />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
