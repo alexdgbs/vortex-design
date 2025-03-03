@@ -26,10 +26,10 @@ const Testimonials = () => {
     }
   ];
   return (
-    <section id="testimonials" className="py-16 md:py-20 px-4 sm:px-6 bg-white">
+    <section id="testimonials" className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">        
         <div className="text-center mb-10 md:mb-16">
-          <h2 className="text-2xl md:text-3xl font-bold text-gray-700 mb-4">Lo que dicen nuestros clientes</h2>
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">Lo que dicen nuestros clientes</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-white to-gray-700 mx-auto"></div> 
           <p className="mt-6 text-gray-600 text-sm md:text-base max-w-2xl mx-auto">Descubre por qué nuestros clientes confían en nosotros para transformar su presencia digital y potenciar sus negocios.</p>
         </div>
